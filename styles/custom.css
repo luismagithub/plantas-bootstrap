@@ -1,0 +1,112 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+nav {
+  background-color: rgb(173, 180, 166);
+}
+
+.navbutton{
+  margin-right: 30px;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-captionn {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-caption h1, 
+.carousel-caption p {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-shadow: 0px 0px 10px black;
+}
+
+.carousel-item {
+  height: 45.6rem;
+}
+
+.plantas .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.plantas .col-lg-4 h2 {
+  margin-top: 15px;
+}
+
+.plantas .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.plantas .col-lg-4 img {
+  width: 240px;
+  height: 240px;
+  border-radius: 40px;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+#haciaarriba {
+  padding: 20px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+
+#tipos {
+  margin-top: 30px;
+}
+
+form{
+  margin-top: 30px;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .carousel-item {
+    height: 32rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel-item {
+    height: 22rem;
+  }
+}
+
+@media (max-width: 767px) {
+  footer p{
+    font-size: 11px;
+  }
+}
